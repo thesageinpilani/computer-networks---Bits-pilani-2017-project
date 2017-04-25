@@ -1,1 +1,8 @@
-# computer-networks---Bits-pilani-2017-project
+
+To compile
+
+gcc -o sniffer sniffer.c `pkg-config --libs --cflags gtk+-3.0`
+
+to run
+
+sudo ./sniffer
